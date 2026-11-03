@@ -58,7 +58,7 @@ KeyStroke.Parent = KeyFrame
 local KeyTitle = Instance.new("TextLabel")
 KeyTitle.Size = UDim2.new(1, 0, 0, 40)
 KeyTitle.BackgroundTransparency = 1
-KeyTitle.Text = "🔑 MAP DESTROYER MADE BY AYANUU"
+KeyTitle.Text = "💥 MAP DESTROYER MADE BY AYANUU 💥"
 KeyTitle.Font = Enum.Font.GothamBold
 KeyTitle.TextSize = 11
 KeyTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -143,7 +143,7 @@ local function LoadMainHub()
 
         SendChat("💀 MAP DESTROYER LOAD...💀")
         task.wait(1)
-        SendChat("🏠 THIS SCRIPT ONLY FOR LIFE TOGETHER 🏠")
+        SendChat("🏠THIS SCRIPT ONLY FOR LIFE TOGETHER🏠")
         task.wait(1)
         SendChat("👑 MADE BY AYANUU 👑")
     end)
@@ -221,7 +221,7 @@ local function LoadMainHub()
     Title.Size = UDim2.new(1, -50, 1, 0)
     Title.Position = UDim2.new(0, 15, 0, 0)
     Title.BackgroundTransparency = 1
-    Title.Text = "🔥 AYAN HUB [MADE BY AYANUU]"
+    Title.Text = "🔥MAP DESTROYER [MADE BY AYANUU] ONLY FOR LIFETOGETHER🏠"
     Title.Font = Enum.Font.GothamBold
     Title.TextSize = 13
     Title.TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -567,7 +567,7 @@ local function LoadMainHub()
     -- ============================================ --
     --               TAB 2 CONTENT                  --
     -- ============================================ --
-    AddInfoBox(Tab2_Page, "YE SCRIPT LOAD KARNE KE BAAD EMOTE MA SREACH KARNA SPIN BAS")
+    AddInfoBox(Tab2_Page, "YE SCRIPT LOAD KARNE KE BAAD EMOTE MA SREACH KARNA SPIN BAS OR INIFINITE YIELD LOAD KARNA ANTIFLING OR WALKFLING LAGA LENA")
 
     AddRemoteScriptItem(Tab2_Page, "AYAN Emote Hub", "https://raw.githubusercontent.com/ayanjaveed503-a11y/AYAN-EMOTE-/refs/heads/main/AYAN%20EMOTE.lua")
 
@@ -579,7 +579,8 @@ local function LoadMainHub()
     AddStepItem(Tab3_Page, "2 : PHIR PHONE KHOLO ITEM MA JAO AND SEARCH KRO CHAIR WHEELCHAIR NIKAALO PHIR OS PER BETH JAO")
     AddStepItem(Tab3_Page, "3 : PHIR PHONE KHOLO AND AVATAR PAR CLICK KRO AND CODE DALDO BAS")
     AddStepItem(Tab3_Page, "4 : PHIR MERA EMOTE HUB LOAD KARLO AND EMOTE MA SEARCH KARNA SPIN BAS")
-    AddStepItem(Tab3_Page, "5 : BAS PHIR USE KRO AB")
+    AddStepItem(Tab3_Page, "5 : BAS PHIR USE KRO AB OR INIFINITE YIELD LOAD KARNA ANTIFLING OR WALKFLING LAGA LENA ")
+    AddStepItem(Tab3_Page, "1 : AGAR SAMAJ NI AYE TO BAAD MA VIDEO BANA DU GYA👽")
 
     AddVideoLinkCopy(Tab3_Page, "Copy Video Link", "https://youtube.com/your-video-link-here")
 
