@@ -298,7 +298,6 @@ end
 local Tab1_Page = CreateTab("Tab 1")
 local Tab2_Page = CreateTab("Tab 2")
 local Tab3_Page = CreateTab("Tab 3")
--- Tab Content Templates (Inko functional banane ke liye customize kar sakte hain)
 local function AddInfoBox(parentPage, infoText)
 local InfoFrame = Instance.new("Frame")
 InfoFrame.Size = UDim2.new(1, -10, 0, 36)
@@ -320,11 +319,10 @@ InfoLabel.Parent = InfoFrame
 end
 AddInfoBox(Tab1_Page, "Welcome to MAP DESTROYER! Select your options below.")
 end
--- Key checking logic
+-- Key checking logic fixed to MAP DESTROYER
 SubmitBtn.MouseButton1Click:Connect(function()
 local enteredKey = KeyBox.Text
--- Yahan aap apna actual key text replace kar sakte hain (Jaise: "AYAN_BEST")
-if enteredKey == "AYAN_BEST" or enteredKey == "" then
+if enteredKey == "MAP DESTROYER" then
 LoadMainHub()
 else
 SubmitBtn.Text = "❌ Invalid Key!"
