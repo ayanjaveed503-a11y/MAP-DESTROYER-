@@ -556,13 +556,20 @@ local function LoadMainHub()
     AddInfoBox(Tab1_Page, "YE CODE COPY KARKE APNE PHONE MA DALO OUTFIT MA")
 
     local discoCode = "31CF3D9"
-    AddItemWithCopy(Tab1_Page, "disco full map", discoCode, function()
+    AddItemWithCopy(Tab1_Page, "rainbow full map", discoCode, function()
         if game:GetService("ReplicatedStorage"):FindFirstChild("Network") then
             local remote = game:GetService("ReplicatedStorage").Network:FindFirstChild("RemoteEvent")
             if remote then remote:FireServer("disco", discoCode) end
         end
     end)
 
+     local discoCode = "V9SV86Y"
+    AddItemWithCopy(Tab1_Page, "hacker full map", hackerCode, function()
+        if game:GetService("ReplicatedStorage"):FindFirstChild("Network") then
+            local remote = game:GetService("ReplicatedStorage").Network:FindFirstChild("RemoteEvent")
+            if remote then remote:FireServer("hacker", hackerCode) end
+        end
+    end)
 
     -- ============================================ --
     --               TAB 2 CONTENT                  --
@@ -580,7 +587,7 @@ local function LoadMainHub()
     AddStepItem(Tab3_Page, "3 : PHIR PHONE KHOLO AND AVATAR PAR CLICK KRO AND CODE DALDO BAS")
     AddStepItem(Tab3_Page, "4 : PHIR MERA EMOTE HUB LOAD KARLO AND EMOTE MA SEARCH KARNA SPIN BAS")
     AddStepItem(Tab3_Page, "5 : BAS PHIR USE KRO AB OR INIFINITE YIELD LOAD KARNA ANTIFLING OR WALKFLING LAGA LENA ")
-    AddStepItem(Tab3_Page, "1 : AGAR SAMAJ NI AYE TO BAAD MA VIDEO BANA DU GYA👽")
+    AddStepItem(Tab3_Page, "6 : AGAR SAMAJ NI AYE TO BAAD MA VIDEO BANA DU GYA👽")
 
     AddVideoLinkCopy(Tab3_Page, "Copy Video Link", "https://youtube.com/your-video-link-here")
 
