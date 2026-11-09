@@ -556,7 +556,7 @@ local function LoadMainHub()
     AddInfoBox(Tab1_Page, "YE CODE COPY KARKE APNE PHONE MA DALO OUTFIT MA")
 
     local discoCode = "31CF3D9"
-    AddItemWithCopy(Tab1_Page, "rainbow full map", discoCode, function()
+    AddItemWithCopy(Tab1_Page, "RAINBOW FULL MAP", discoCode, function()
         if game:GetService("ReplicatedStorage"):FindFirstChild("Network") then
             local remote = game:GetService("ReplicatedStorage").Network:FindFirstChild("RemoteEvent")
             if remote then remote:FireServer("disco", discoCode) end
@@ -565,7 +565,7 @@ local function LoadMainHub()
 
 -- Code 2 (V9SV86Y)
     local code2 = "V9SV86Y"
-    AddItemWithCopy(Tab1_Page, "disco full map 2", code2, function()
+    AddItemWithCopy(Tab1_Page, "HACKER FULL MAP", code2, function()
         if game:GetService("ReplicatedStorage"):FindFirstChild("Network") then
             local remote = game:GetService("ReplicatedStorage").Network:FindFirstChild("RemoteEvent")
             if remote then remote:FireServer("disco", code2) end
