@@ -563,11 +563,12 @@ local function LoadMainHub()
         end
     end)
 
-     local discoCode = "V9SV86Y"
-    AddItemWithCopy(Tab1_Page, "hacker full map", hackerCode, function()
+-- Code 2 (V9SV86Y)
+    local code2 = "V9SV86Y"
+    AddItemWithCopy(Tab1_Page, "disco full map 2", code2, function()
         if game:GetService("ReplicatedStorage"):FindFirstChild("Network") then
             local remote = game:GetService("ReplicatedStorage").Network:FindFirstChild("RemoteEvent")
-            if remote then remote:FireServer("hacker", hackerCode) end
+            if remote then remote:FireServer("disco", code2) end
         end
     end)
 
